@@ -131,23 +131,22 @@ This project builds a real-time ML monitoring pipeline that:
 ---
 
 ## 📁 Project Structure
-bragg-anomaly-detection/
-│
-├── app.py                           # Streamlit live dashboard
-│
-├── phase1_data_generation.ipynb     # Signal generation
-├── phase2_cleaning.ipynb            # Preprocessing & normalization
-├── phase3_features.ipynb            # Feature engineering
-├── phase4_models.ipynb              # Random Forest & Isolation Forest
-├── phase4b_lstm_autoencoder.ipynb   # LSTM Autoencoder (TensorFlow)
-│
-├── bragg_signals_cleaned.npy        # Processed signal dataset
-├── bragg_features.csv               # Engineered feature matrix
-├── bragg_labels.npy                 # Signal class labels
-├── lstm_autoencoder.keras           # Saved LSTM model weights
-├── project_summary.png              # Summary visualization
-│
-└── requirements.txt
+## 📁 Project Structure
+
+| File | Description |
+|---|---|
+| `app.py` | Streamlit live dashboard |
+| `phase1_data_generation.ipynb` | Signal generation |
+| `phase2_cleaning.ipynb` | Preprocessing & normalization |
+| `phase3_features.ipynb` | Feature engineering |
+| `phase4_models.ipynb` | Random Forest & Isolation Forest |
+| `phase4b_lstm_autoencoder.ipynb` | LSTM Autoencoder (TensorFlow) |
+| `bragg_signals_cleaned.npy` | Processed signal dataset |
+| `bragg_features.csv` | Engineered feature matrix |
+| `bragg_labels.npy` | Signal class labels |
+| `lstm_autoencoder.keras` | Saved LSTM model weights |
+| `project_summary.png` | Summary visualization |
+| `requirements.txt` | Python dependencies |
 
 ---
 
