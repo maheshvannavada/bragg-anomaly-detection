@@ -34,25 +34,37 @@ This project builds a real-time ML monitoring pipeline that:
 
 ## 🖥️ Live Dashboard
 
-The Streamlit dashboard simulates real-time beam monitoring.
-Select signal type and noise level from the sidebar, all three
-models respond instantly.
+## 🖥️ Live Dashboard
 
-**Run locally:**
-```bash
-pip install -r requirements.txt
-streamlit run app.py
-```
+### Normal Signal — Correctly Identified
+![Normal](screenshots/normal.png)
+
+### Range Shift — Anomaly Detected
+![Range Shift](screenshots/range_shift.png)
+
+### Amplitude Drop — Anomaly Detected
+![Amplitude Drop](screenshots/amplitude_drop.png)
+
+### Scatter Artifact — Anomaly Detected
+![Scatter Artifact](screenshots/scatter_artifact.png)
+
+### Missing Peak — Anomaly Detected
+![Missing Peak](screenshots/missing_peak.png)
 
 ---
-
 ## 🧠 ML Pipeline
-Phase 1  →  Data Generation         (6,000 physics-grounded Bragg signals)
-Phase 2  →  Cleaning & Normalization (clip negatives, min-max per signal)
-Phase 3  →  Feature Engineering     (11 domain-specific signal features)
-Phase 4  →  Model Training          (Random Forest + Isolation Forest)
-Phase 4b →  LSTM Autoencoder        (sequence reconstruction approach)
-Phase 5  →  Streamlit Dashboard     (live 3-model prediction interface)
+
+**Phase 1** → Data Generation — 6,000 physics-grounded Bragg signals
+
+**Phase 2** → Cleaning & Normalization — clip negatives, min-max per signal
+
+**Phase 3** → Feature Engineering — 11 domain-specific signal features
+
+**Phase 4** → Model Training — Random Forest + Isolation Forest
+
+**Phase 4b** → LSTM Autoencoder — sequence reconstruction approach
+
+**Phase 5** → Streamlit Dashboard — live 3-model prediction interface
 
 
 ## 🤖 Three-Model Architecture
