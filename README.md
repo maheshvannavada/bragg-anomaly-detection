@@ -1,7 +1,7 @@
 # ⚡ Real-Time Proton Beam Anomaly Detection
 
 > End-to-end machine learning system for detecting anomalies in proton therapy
-> dose-deposition signals — combining supervised, unsupervised, and deep learning
+> dose-deposition signals combining supervised, unsupervised, and deep learning
 > approaches with a live interactive dashboard.
 
 ---
@@ -10,7 +10,7 @@
 
 In proton therapy, a beam of protons is directed at a tumor with extreme precision.
 The beam's energy deposits in a characteristic shape called a **Bragg Peak**.
-Any deviation — a shifted peak, reduced amplitude, or scattered beam — can mean
+Any deviation a shifted peak, reduced amplitude, or scattered beam can mean
 the tumor receives insufficient dose or healthy tissue is damaged.
 
 This project builds a real-time ML monitoring pipeline that:
@@ -35,7 +35,7 @@ This project builds a real-time ML monitoring pipeline that:
 ## 🖥️ Live Dashboard
 
 The Streamlit dashboard simulates real-time beam monitoring.
-Select signal type and noise level from the sidebar — all three
+Select signal type and noise level from the sidebar, all three
 models respond instantly.
 
 **Run locally:**
@@ -53,7 +53,7 @@ Phase 3  →  Feature Engineering     (11 domain-specific signal features)
 Phase 4  →  Model Training          (Random Forest + Isolation Forest)
 Phase 4b →  LSTM Autoencoder        (sequence reconstruction approach)
 Phase 5  →  Streamlit Dashboard     (live 3-model prediction interface)
----
+
 
 ## 🤖 Three-Model Architecture
 
