@@ -32,7 +32,6 @@ This project builds a real-time ML monitoring pipeline that:
 
 ---
 
-## 🖥️ Live Dashboard
 
 ## 🖥️ Live Dashboard
 
