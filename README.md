@@ -130,7 +130,6 @@ This project builds a real-time ML monitoring pipeline that:
 ---
 
 ## 📁 Project Structure
-## 📁 Project Structure
 
 | File | Description |
 |---|---|
